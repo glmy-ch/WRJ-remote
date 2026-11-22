@@ -1,0 +1,43 @@
+﻿# ---------- Keil MDK 编译产物 ----------
+MDK-ARM/WRJ1111/
+MDK-ARM/DebugConfig/
+MDK-ARM/Listings/
+MDK-ARM/Objects/
+MDK-ARM/RTE/
+MDK-ARM/APP/[Dd]ebug/
+MDK-ARM/APP/[Rr]elease/
+MDK-ARM/freeRTOS/[Dd]ebug/
+MDK-ARM/freeRTOS/[Rr]elease/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.lnp
+*.dep
+*.iex
+*.tra
+*.sct
+*.build_log.htm
+*.htm
+*.uvguix.*
+*.uvoptx.bak
+JLinkLog.txt
+EventRecorderStub.scvd
+RTE/_*/
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+MDK-ARM/.vscode/
+Thumbs.db
+Desktop.ini
+*.bak
+*.tmp
+
+# ---------- 工程文件要保留 ----------
+!*.uvprojx
+!*.ioc
+!*.mxproject
